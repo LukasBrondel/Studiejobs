@@ -1,0 +1,250 @@
+/* Main stylesheet */
+
+/*------- Global & Variables ------- */
+/* Fonts */
+@font-stack {
+    font-family: font-stack;
+	src: url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+}
+
+$font-stack:'Montserrat', sans-serif;
+
+/* Font sizes */
+$heading-size-large: 72px; /* h1-h2 */ 
+$heading-size-medium: 28px; /* h2 */
+$heading-size-small: 24px; /* h3+ */
+
+$paragraph-size: 14px; /* p */
+$button-size: 14px; /* button text */
+$menu-size: 14px; /* menu text */
+
+/* Font weights */
+$heading-weight-large: 800; /* h1-h2 */
+$heading-weight-medium: 800; /* h2 */
+$heading-weight-small: 400; /* h3+ */
+
+$paragraph-weight: 400; /* p */
+$button-weight: 400; /* button text */
+$menu-weight: 500; /* menu text */
+
+/* Colors */
+$theme-color: #de4d22;
+$dark-color: #383838;
+$light-color: #fff;
+$light-background: #edf4f5;
+
+/* Buttons */
+$button-radius: 10px;
+
+/* Global styling */
+body {
+    font-family: $font-stack;
+    background-color:$light-background;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size:$heading-size-medium;
+    color:$dark-color;
+    font-weight: $heading-weight-medium;
+    margin-top:75px;
+    margin-bottom:20px;
+    letter-spacing: 1px;
+}
+
+.separator { /* Separator below every h2 */
+    line-height: 0.5;
+    text-align: center;
+    margin-bottom:50px;
+    
+    span {
+        display: inline-block;
+        position: relative;
+        background-color:$theme-color;
+        padding:18px;
+        border-radius: 100%;
+        color:$light-color;
+        
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            height: 3px;
+            border-bottom: 3px solid $theme-color;
+            width: 110px;
+        }
+        
+        &:before {
+            right: 100%;
+            margin-right: 8px;
+        }
+        &:after {
+            left: 100%;
+            margin-left: 8px;
+        }
+    }
+}
+
+/*------- Menu ------- */
+
+.navbar-brand {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.customNavbar {
+	background-color:$light-color !important; /* Overwrite bootstrap */
+	-webkit-box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.4);
+	font-weight:$menu-weight;
+	font-size: $menu-size;
+	text-transform:uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $dark-color;
+}
+
+.nav-item {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.login-btn {
+	background-color:$theme-color;
+	border-radius:$button-radius;
+    font-weight: $button-weight;
+}
+
+.login-link {
+	color:white !important; /* Overwrite bootstrap */
+	
+	&:hover {
+		color:red !important; /* Overwrite bootstrap */
+	}
+}
+
+/*------- index.php ------- */
+
+/* Featured job - top slider */
+.intro-slider {
+	padding:0;
+	
+	h1 {
+		font-size:$heading-size-large;
+		font-weight:$heading-weight-large;
+		text-align:left;
+		text-transform:uppercase;
+	}
+	
+	p {
+		text-align:left;
+	}
+	
+	.carousel-caption {
+		top: 25%;
+		max-width: 800px;
+	}
+	
+	.slider-btn {
+		float:left;
+		background-color:$theme-color;
+        padding: 10px 30px;
+        border-radius: $button-radius;
+        font-weight: $button-weight;
+        color:$light-color;
+        text-transform: uppercase;
+	}
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+/* Nye jobopslag */
+
+.search-job {
+    height:120px;
+    background-color:$theme-color;
+    
+    form {
+        margin:auto;
+    
+        .form-control {
+            border: none;
+            border-radius: 0;
+            height:40px;
+            padding: 0px 10px;
+        }
+
+        .form-group {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $dark-color;
+            opacity: 1; /* Firefox */
+            font-size:12px;
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $dark-color;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: $dark-color;
+        }
+        
+        .btn-default {
+            background-color:$dark-color;
+            color:$light-color;
+            font-size:$button-size;
+            height:40px;
+            border:none;
+            border-radius: 0;
+            margin-left:10px;
+            text-transform: uppercase;
+            padding: 0px 35px;
+            
+            &:hover {
+                background-color:#5b5b5b;
+            }
+        }
+    }
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+
+
+.job-logo {
+    background-color: #fff;
+    border: solid #e3e3e3 1px;
+    margin: auto;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    
+    img {
+        margin-top:20%;
+    }
+}
+
+.nye-jobs {
+    
+    h3 {
+        font-size:$heading-size-small;
+        margin:0;
+        padding:0;
+    }
+    
+    p {
+        margin:0;
+        padding:0;
+    }
+}
