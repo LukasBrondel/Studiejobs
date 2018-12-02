@@ -32,6 +32,14 @@
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
             </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Savner du ekstra lommepenge?</h1>
+                <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov. Det eneste krav er, at du har en cykel og en smartphone!</p>
+                <a href="#" class="slider-btn">Læs mere</a>
+              </div>
+            </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -73,25 +81,46 @@
                   </td>
                   <td>
                       <h3>Omdeler</h3>
-                      <p>FK Distribution</p>
+                      <p class="virksomhed">FK Distribution</p>
                   </td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
+                  <td class="text-center">8000 Århus C</td>
+                  <td class="text-center">12. november</td>
+                  <td class="text-center">+18 år<br/>
+                      <a href="#" class="se-opslag">Se opslag</a></td>
                 </tr>
                 <tr>
                   <td>
                     <div class="job-logo">
-                        <img src="images/virksomheder/fk-distribution-logo.png" alt="FK Distribution logo">
+                        <img src="images/virksomheder/thomsen-og-co-logo.png" alt="Thomsen&Co logo">
                     </div>
                   </td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
+                  <td>
+                      <h3>Grafisk designer</h3>
+                      <p class="virksomhed">Thomsen&amp;Co</p>
+                  </td>
+                  <td class="text-center">8000 Århus C</td>
+                  <td class="text-center">8. november</td>
+                  <td class="text-center">+18 år<br/>
+                      <a href="#" class="se-opslag">Se opslag</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="job-logo">
+                        <img src="images/virksomheder/alm-brand-logo.png" alt="Alm. brand logo">
+                    </div>
+                  </td>
+                  <td>
+                      <h3>Mødebooker</h3>
+                      <p class="virksomhed">Alm. Brand</p>
+                  </td>
+                  <td class="text-center">8000 Århus C</td>
+                  <td class="text-center">6. november</td>
+                  <td class="text-center">+18 år<br/>
+                      <a href="#" class="se-opslag">Se opslag</a></td>
                 </tr>
               </tbody>
             </table>
+            <a class="login-link" href="#">Login</a>
         </article>
     </section>  
     <!-- Optional JavaScript -->

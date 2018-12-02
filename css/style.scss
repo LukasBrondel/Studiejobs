@@ -22,10 +22,13 @@ $menu-size: 14px; /* menu text */
 $heading-weight-large: 800; /* h1-h2 */
 $heading-weight-medium: 800; /* h2 */
 $heading-weight-small: 400; /* h3+ */
-
+$bold-weight: 700;
 $paragraph-weight: 400; /* p */
 $button-weight: 400; /* button text */
 $menu-weight: 500; /* menu text */
+
+/* Transitions */
+$standard-transition: background-color .15s ease-in-out;
 
 /* Colors */
 $theme-color: #de4d22;
@@ -114,14 +117,20 @@ h2 {
 	background-color:$theme-color;
 	border-radius:$button-radius;
     font-weight: $button-weight;
+    transition: $standard-transition;
+    
+    &:hover {
+		background-color:$dark-color !important; /* Overwrite bootstrap */
+        transition: $standard-transition;
+	}
+    
+    a {
+        display: block;
+    }
 }
 
 .login-link {
-	color:white !important; /* Overwrite bootstrap */
-	
-	&:hover {
-		color:red !important; /* Overwrite bootstrap */
-	}
+	color:$light-color !important; /* Overwrite bootstrap */
 }
 
 /*------- index.php ------- */
@@ -154,6 +163,13 @@ h2 {
         font-weight: $button-weight;
         color:$light-color;
         text-transform: uppercase;
+        transition: $standard-transition;
+        
+        &:hover {
+            transition: $standard-transition;
+            background-color:$dark-color;
+            text-decoration: none;
+        }
 	}
 }
 
@@ -231,7 +247,7 @@ h2 {
     height: 72px;
     
     img {
-        margin-top:20%;
+        margin-top:25%;
     }
 }
 
@@ -239,6 +255,7 @@ h2 {
     
     h3 {
         font-size:$heading-size-small;
+        font-weight: $heading-weight-small;
         margin:0;
         padding:0;
     }
@@ -246,5 +263,39 @@ h2 {
     p {
         margin:0;
         padding:0;
+    }
+    
+    .virksomhed {
+        font-weight: $bold-weight;
+        
+    }
+    
+    td {
+        line-height:28px;
+        font-size:$paragraph-size;
+        font-weight: $paragraph-weight;
+    }
+    
+    td a {
+        padding: 10px 20px;
+        border-radius: $button-radius;
+        color:$light-color;
+        font-size: $button-size;
+        font-weight: $button-weight;
+        
+        &:hover {
+            text-decoration: none;
+            background-color:$theme-color;
+        }
+    }
+    
+    .se-opslag {
+        background-color:$theme-color;
+        transition: $standard-transition;
+        
+        &:hover {
+            background-color:$dark-color;
+            transition: $standard-transition;
+        }
     }
 }
