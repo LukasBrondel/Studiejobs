@@ -85,7 +85,7 @@
                   </td>
                   <td class="text-center">8000 Århus C</td>
                   <td class="text-center">12. november</td>
-                  <td class="text-center">+18 år<br/>
+                  <td class="text-center">13-17 år<br/>
                       <a href="#" class="se-opslag">Se opslag</a></td>
                 </tr>
                 <tr>
@@ -106,7 +106,7 @@
                 <tr>
                   <td>
                     <div class="job-logo">
-                        <img src="images/virksomheder/alm-brand-logo.png" alt="Alm. brand logo">
+                        <img src="images/virksomheder/alm-brand-logo.png" class="img-fluid" alt="Alm. brand logo">
                     </div>
                   </td>
                   <td>
@@ -120,9 +120,58 @@
                 </tr>
               </tbody>
             </table>
-            <a class="login-link" href="#">Login</a>
+            <a href="#" class="se-mere">Se flere jobs</a>
         </article>
-    </section>  
+    </section>
+    <section class="container-fluid hent-vores-app">
+        <article class="hent-vores-app">
+            <h2>Hent vores app</h2>
+            <div class="separator"><span>X</span></div>
+            <p class="col-12">Med vores app har du over <span class="bold-text">200 jobopslag</span> lige ved hånden.<br/> 
+Hent vores app helt gratis her.</p>
+            <a href="#"><img src="images/appstore.png" class="img-fluid download-btn" alt="Download på App Store"></a>
+            <a href="#"><img src="images/googleplay.png" class="img-fluid download-btn" alt="Download på Google Play"></a>
+            <br/>
+            <img src="images/studiejobs-app.png" class="img-fluid app-image" alt="Studiejobs app">
+            <article class="row statistik">
+                <article class="col-4">
+                    <h3>Jobopslag</h3>
+                    <hr/>
+                    <p>225</p>
+                </article>
+                <article class="col-4">
+                    <h3>CV'er</h3>
+                    <hr/>
+                    <p>1.230</p>
+                </article>
+                <article class="col-4">
+                    <h3>Virksomheder</h3>
+                    <hr/>
+                    <p>158</p>
+                </article>
+            </article>
+        </article>  
+    </section>
+    <section class="container">
+        <article class="hvem-bruger-studiejobs row">
+            <h2 class="col-12">Hvem bruger Studiejobs.dk?</h2>
+            <div class="separator col-12"><span>X</span></div>
+            
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img src="images/virksomheder/featured/wolt-logo.png" class="img-fluid" alt="Wolt logo">
+            </div>
+           <div class="col-xs-12 col-md-6 col-lg-3">
+                <img src="images/virksomheder/featured/dansk-supermarked-group-logo.png" class="img-fluid" alt="Dansk Supermarked Group logo">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img src="images/virksomheder/featured/expert-logo.png" class="img-fluid" alt="Expert logo">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img src="images/virksomheder/featured/coop-logo.png" class="img-fluid" alt="Coop logo">
+            </div>
+            <a href="#" class="se-mere">Se alle kunder</a>
+        </article>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -45,6 +45,10 @@ body {
     background-color:$light-background;
 }
 
+.bold-text { /* Span for single word bold text */
+    font-weight: $bold-weight;
+}
+
 h2 {
     text-align: center;
     text-transform: uppercase;
@@ -85,6 +89,24 @@ h2 {
             left: 100%;
             margin-left: 8px;
         }
+    }
+}
+
+.se-mere { /* See more button */
+    background-color:$theme-color;
+    border-radius:$button-radius;
+    text-transform: uppercase;
+    color:$light-color;
+    padding:10px 20px;
+    margin: auto;
+    transition: $standard-transition;
+    margin-top:35px;
+
+    &:hover {
+        background-color:$dark-color;
+        transition: $standard-transition;
+        text-decoration: none;
+        color:$light-color;
     }
 }
 
@@ -297,5 +319,66 @@ h2 {
             background-color:$dark-color;
             transition: $standard-transition;
         }
+    }
+}
+
+/* Hent vores app */
+
+.hent-vores-app {
+    background-color:$light-color;
+    text-align: center;
+    padding-bottom:15px;
+    
+    h2 {
+        padding-top:85px;
+    }
+    
+    p {
+        font-size: $paragraph-size + 2px; /* Paragraph variable plus 2px */
+        font-weight: $paragraph-weight + 100; /* Paragraph variable plus 100 */
+        margin-bottom:20px;
+    }
+    
+    .download-btn {
+        margin:10px;
+    }
+    
+    .app-image {
+        margin-top:30px;
+    }
+    
+    /* Statistik */
+    .statistik {
+        padding-bottom:5px;
+        max-width:802px;
+        margin: auto;
+        
+        h3 {
+            margin-top:20px;
+            font-size:$heading-size-medium + 4px; /* Medium heading size + 4px */
+            font-weight: $paragraph-weight + 200; /* Paragraph weight + 200 font weight */
+        }
+        
+        hr {
+            max-width:70px;
+            border-bottom: solid $dark-color 2px;
+        }
+        
+        p {
+            font-size:$paragraph-size + 38px; /* Paragraph variable + 2px*/
+            font-weight: $bold-weight;
+        }
+    }
+}
+
+/* Hvem bruger studiejobs.dk? */
+
+.hvem-bruger-studiejobs {
+    text-align: center;
+    padding-bottom:80px;
+    
+    img {
+        margin-bottom:40px;
+        margin-top:40px;
     }
 }
