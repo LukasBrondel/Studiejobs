@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="dk">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom stylesheet minified -->
@@ -27,15 +28,15 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
               <div class="carousel-caption d-none d-md-block">
-                <h1>Savner du ekstra lommepenge?</h1>
-                <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov. Det eneste krav er, at du har en cykel og en smartphone!</p>
+                <h1>Har du prøvet vores nye app?</h1>
+                <p>tekst</p>
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
               <div class="carousel-caption d-none d-md-block">
-                <h1>Savner du ekstra lommepenge?</h1>
+                <h2>Savner du ekstra lommepenge?</h2>
                 <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov. Det eneste krav er, at du har en cykel og en smartphone!</p>
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
@@ -172,6 +173,8 @@ Hent vores app helt gratis her.</p>
             <a href="#" class="se-mere">Se alle kunder</a>
         </article>
     </section>
+      
+    <?php include 'includes/footer.php';?>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

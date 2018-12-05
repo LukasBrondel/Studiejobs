@@ -110,11 +110,13 @@ h2 {
     }
 }
 
-/*------- Menu ------- */
+/*------- Header ------- */
 
 .navbar-brand {
-	padding-top:25px;
-	padding-bottom:25px;
+    margin-bottom: 5px;
+    margin-left:50px;
+    height:57px;
+    width:241px;
 }
 .customNavbar {
 	background-color:$light-color !important; /* Overwrite bootstrap */
@@ -155,16 +157,65 @@ h2 {
 	color:$light-color !important; /* Overwrite bootstrap */
 }
 
+/*------- Footer -------*/
+
+.footer {
+    width: 100%;
+    padding-top:60px;
+    padding-bottom:60px;
+    background-color: $dark-color;
+    color:$light-color;
+    font-size:$paragraph-size;
+    margin: auto;
+    
+    h4 {
+        font-size:$heading-size-small;
+        font-weight:$heading-weight-small;
+    }
+    
+    img {
+        margin-bottom:10px;
+    }
+    
+    ul {
+        list-style: none;
+        padding:0;
+        
+        li {
+            margin-bottom:5px;
+        }
+    }
+     
+    a {
+        color:$light-color;
+    }
+    
+    p {
+        margin:0;
+        margin-bottom:5px;
+        
+        i {
+            margin-right:5px;
+            font-size: $paragraph-size + 2px;
+            width:20px;
+            text-align: center;
+        }
+    }
+}
+
 /*------- index.php ------- */
 
 /* Featured job - top slider */
 .intro-slider {
 	padding:0;
 	
-	h1 {
+	h1, h2 {
 		font-size:$heading-size-large;
 		font-weight:$heading-weight-large;
 		text-align:left;
+        margin:0;
+        padding:0;
+        color:$light-color;
 		text-transform:uppercase;
 	}
 	
@@ -380,5 +431,12 @@ h2 {
     img {
         margin-bottom:40px;
         margin-top:40px;
+        opacity:0.8;
+        transition: opacity 0.15s ease-in-out;
+        
+        &:hover {
+            opacity:1;
+            transition: opacity 0.15s ease-in-out;
+        }
     }
 }
