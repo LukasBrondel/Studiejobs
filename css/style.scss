@@ -43,6 +43,7 @@ $button-radius: 10px;
 body {
     font-family: $font-stack;
     background-color:$light-background;
+    padding-top:60px;
 }
 
 .bold-text { /* Span for single word bold text */
@@ -160,13 +161,12 @@ h2 {
 /*------- Footer -------*/
 
 .footer {
-    width: 100%;
     padding-top:60px;
     padding-bottom:60px;
     background-color: $dark-color;
     color:$light-color;
     font-size:$paragraph-size;
-    margin: auto;
+    text-align: center;
     
     h4 {
         font-size:$heading-size-small;
@@ -221,6 +221,7 @@ h2 {
 	
 	p {
 		text-align:left;
+        font-size:$paragraph-size;
 	}
 	
 	.carousel-caption {
@@ -257,6 +258,10 @@ h2 {
 .search-job {
     height:120px;
     background-color:$theme-color;
+    
+    .form-group {
+        margin-bottom: 0;
+    }
     
     form {
         margin:auto;
@@ -296,12 +301,16 @@ h2 {
             border-radius: 0;
             margin-left:10px;
             text-transform: uppercase;
-            padding: 0px 35px;
+            padding: 0px 10px;
             
             &:hover {
                 background-color:#5b5b5b;
             }
         }
+    }
+
+    .nye-jobs td a {
+        padding: 5px 6px;
     }
 }
 
@@ -350,11 +359,11 @@ h2 {
     }
     
     td a {
-        padding: 10px 20px;
         border-radius: $button-radius;
         color:$light-color;
         font-size: $button-size;
         font-weight: $button-weight;
+        padding:4px;
         
         &:hover {
             text-decoration: none;
@@ -439,4 +448,81 @@ h2 {
             transition: opacity 0.15s ease-in-out;
         }
     }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    /*------- Footer -------*/
+    .footer {
+        text-align: left;
+    }
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+    
+    body {
+        padding-top:30px;
+    }
+    
+    /*------- index.php ------- */
+
+    /* Featured job - top slider */
+    .intro-slider {
+        padding:0;
+
+        h1, h2 {
+            font-size:$heading-size-large - 45px;
+        }    
+    }
+    
+    /* Nye jobopslag */
+    .nye-jobs td a {
+        padding: 10px 20px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+    /*------- index.php ------- */
+
+    /* Featured job - top slider */
+    .intro-slider {
+        padding:0;
+
+        h1, h2 {
+            font-size:$heading-size-large - 25px;
+        }    
+    }
+    
+    /* Navbar */
+    .nav-item {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    /*------- index.php ------- */
+
+    /* Featured job - top slider */
+    .intro-slider {
+        padding:0;
+
+        h1, h2 {
+            font-size:$heading-size-large;
+        }    
+    }
+    
+    /* Navbar */
+    .nav-item {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
 }

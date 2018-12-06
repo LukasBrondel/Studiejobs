@@ -17,7 +17,7 @@
  
         <?php include 'includes/header.php';?>
         
-    <section class="container-fluid intro-slider">
+    <section class="container-fluid intro-slider d-none d-md-block">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -28,8 +28,8 @@
             <div class="carousel-item active">
               <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
               <div class="carousel-caption d-none d-md-block">
-                <h1>Har du prøvet vores nye app?</h1>
-                <p>tekst</p>
+                <h1>Har du prøvet vores app?</h1>
+                <p>Gør din jobsøgning lettere og find studiejob eller praktik med Studiejobs appen nu!<br/> Det er helt gratis.</p>
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
             </div>
@@ -37,7 +37,7 @@
               <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
               <div class="carousel-caption d-none d-md-block">
                 <h2>Savner du ekstra lommepenge?</h2>
-                <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov. Det eneste krav er, at du har en cykel og en smartphone!</p>
+                <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov.<br/> Det eneste krav er, at du har en cykel og en smartphone!</p>
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
             </div>
@@ -54,14 +54,14 @@
     </section>
     <section class="container">
         <h2>Nye jobopslag</h2>
-        <div class="separator"><span>X</span></div>
+        <div class="separator"><span><i class="fas fa-suitcase"></i></span></div>
         
         <article class="row search-job">
             <form class="form-inline">
-              <div class="form-group">
+              <div class="form-group col-xs-12">
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Postnummer / by">
               </div>
-              <div class="form-group">
+              <div class="form-group col-xs-12">
                 <select class="form-control" id="exampleFormControlSelect1" placeholder="Jobtype">
                     <option>Alle opslag</option>
                     <option>Studiejobs</option>
@@ -84,10 +84,9 @@
                       <h3>Omdeler</h3>
                       <p class="virksomhed">FK Distribution</p>
                   </td>
-                  <td class="text-center">8000 Århus C</td>
-                  <td class="text-center">12. november</td>
+                  <td class="text-center">Århus</td>
                   <td class="text-center">13-17 år<br/>
-                      <a href="#" class="se-opslag">Se opslag</a></td>
+                      <a href="#" class="se-opslag">Se mere</a></td>
                 </tr>
                 <tr>
                   <td>
@@ -99,10 +98,9 @@
                       <h3>Grafisk designer</h3>
                       <p class="virksomhed">Thomsen&amp;Co</p>
                   </td>
-                  <td class="text-center">8000 Århus C</td>
-                  <td class="text-center">8. november</td>
+                  <td class="text-center">Århus</td>
                   <td class="text-center">+18 år<br/>
-                      <a href="#" class="se-opslag">Se opslag</a></td>
+                      <a href="#" class="se-opslag">Se mere</a></td>
                 </tr>
                 <tr>
                   <td>
@@ -114,10 +112,9 @@
                       <h3>Mødebooker</h3>
                       <p class="virksomhed">Alm. Brand</p>
                   </td>
-                  <td class="text-center">8000 Århus C</td>
-                  <td class="text-center">6. november</td>
+                  <td class="text-center">Århus</td>
                   <td class="text-center">+18 år<br/>
-                      <a href="#" class="se-opslag">Se opslag</a></td>
+                      <a href="#" class="se-opslag">Se mere</a></td>
                 </tr>
               </tbody>
             </table>
@@ -135,17 +132,17 @@ Hent vores app helt gratis her.</p>
             <br/>
             <img src="images/studiejobs-app.png" class="img-fluid app-image" alt="Studiejobs app">
             <article class="row statistik">
-                <article class="col-4">
+                <article class="col-xs-12 col-md-4">
                     <h3>Jobopslag</h3>
                     <hr/>
                     <p>225</p>
                 </article>
-                <article class="col-4">
+                <article class="col-xs-12 col-md-4">
                     <h3>CV'er</h3>
                     <hr/>
                     <p>1.230</p>
                 </article>
-                <article class="col-4">
+                <article class="col-xs-12 col-md-4">
                     <h3>Virksomheder</h3>
                     <hr/>
                     <p>158</p>
