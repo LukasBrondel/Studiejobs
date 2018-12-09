@@ -26,11 +26,11 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="images/wolt-featured.jpg" alt="Udbringer hos Wolt">
+              <img class="d-block w-100" src="images/app-featured.jpg" alt="Studiejobs app">
               <div class="carousel-caption d-none d-md-block">
                 <h1>Har du prøvet vores app?</h1>
                 <p>Gør din jobsøgning lettere og find studiejob eller praktik med Studiejobs appen nu!<br/> Det er helt gratis.</p>
-                <a href="#" class="slider-btn">Læs mere</a>
+                <a href="appen.php" class="slider-btn">Læs mere</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -38,6 +38,14 @@
               <div class="carousel-caption d-none d-md-block">
                 <h2>Savner du ekstra lommepenge?</h2>
                 <p>Som leverandør for Wolt får du selv mulighed for at styre og planlægge dine arbejdstider efter dine behov.<br/> Det eneste krav er, at du har en cykel og en smartphone!</p>
+                <a href="#" class="slider-btn">Læs mere</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/fakta-featured.jpg" alt="Servicemedarbejder hos Fakta">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Vi har brug for dig på holdet</h2>
+                <p>I fakta lever vi af at yde flink service til vores kunder. Derfor er vores servicemedarbejdere nogle af de vigtigste medarbejdere, vi har i butikkerne.  </p>
                 <a href="#" class="slider-btn">Læs mere</a>
               </div>
             </div>
@@ -86,7 +94,7 @@
                   </td>
                   <td class="text-center">Århus</td>
                   <td class="text-center">13-17 år<br/>
-                      <a href="#" class="se-opslag">Se mere</a></td>
+                      <a href="find-job.php#fkdistribution" class="se-opslag">Se mere</a></td>
                 </tr>
                 <tr>
                   <td>
@@ -100,7 +108,7 @@
                   </td>
                   <td class="text-center">Århus</td>
                   <td class="text-center">+18 år<br/>
-                      <a href="#" class="se-opslag">Se mere</a></td>
+                      <a href="find-job.php#thomsenogco" class="se-opslag">Se mere</a></td>
                 </tr>
                 <tr>
                   <td>
@@ -114,21 +122,21 @@
                   </td>
                   <td class="text-center">Århus</td>
                   <td class="text-center">+18 år<br/>
-                      <a href="#" class="se-opslag">Se mere</a></td>
+                      <a href="find-job.php#almbrand" class="se-opslag">Se mere</a></td>
                 </tr>
               </tbody>
             </table>
-            <a href="#" class="se-mere">Se flere jobs</a>
+            <a href="find-job.php" class="se-mere">Se flere jobs</a>
         </article>
     </section>
     <section class="container-fluid hent-vores-app">
         <article class="hent-vores-app">
             <h2>Hent vores app</h2>
-            <div class="separator"><span>X</span></div>
+            <div class="separator"><span><i class="fas fa-mobile-alt"></i></span></div>
             <p class="col-12">Med vores app har du over <span class="bold-text">200 jobopslag</span> lige ved hånden.<br/> 
 Hent vores app helt gratis her.</p>
-            <a href="#"><img src="images/appstore.png" class="img-fluid download-btn" alt="Download på App Store"></a>
-            <a href="#"><img src="images/googleplay.png" class="img-fluid download-btn" alt="Download på Google Play"></a>
+            <a href="https://www.apple.com/lae/ios/app-store/" target="_blank"><img src="images/appstore.png" class="img-fluid download-btn" alt="Download på App Store"></a>
+           <a href="https://play.google.com/" target="_blank"><img src="images/googleplay.png" class="img-fluid download-btn" alt="Download på Google Play"></a>
             <br/>
             <img src="images/studiejobs-app.png" class="img-fluid app-image" alt="Studiejobs app">
             <article class="row statistik">
@@ -153,7 +161,7 @@ Hent vores app helt gratis her.</p>
     <section class="container">
         <article class="hvem-bruger-studiejobs row">
             <h2 class="col-12">Hvem bruger Studiejobs.dk?</h2>
-            <div class="separator col-12"><span>X</span></div>
+            <div class="separator col-12"><span><i class="fas fa-user-tie"></i></span></div>
             
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <img src="images/virksomheder/featured/wolt-logo.png" class="img-fluid" alt="Wolt logo">
@@ -167,7 +175,7 @@ Hent vores app helt gratis her.</p>
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <img src="images/virksomheder/featured/coop-logo.png" class="img-fluid" alt="Coop logo">
             </div>
-            <a href="#" class="se-mere">Se alle kunder</a>
+            <a href="kunder.php" class="se-mere">Se alle kunder</a>
         </article>
     </section>
       

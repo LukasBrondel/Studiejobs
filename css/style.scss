@@ -39,6 +39,20 @@ $light-background: #edf4f5;
 /* Buttons */
 $button-radius: 10px;
 
+/* Only subpages */
+.underside {  
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size:$heading-size-medium;
+        color:$dark-color;
+        font-weight: $heading-weight-medium;
+        margin-top:12%;
+        margin-bottom:20px;
+        letter-spacing: 1px;
+    }
+}
+
 /* Global styling */
 body {
     font-family: $font-stack;
@@ -66,6 +80,12 @@ h2 {
     text-align: center;
     margin-bottom:50px;
     
+    i {
+        width:20px;
+        height:18px;
+        margin-top:2px;
+    }
+    
     span {
         display: inline-block;
         position: relative;
@@ -77,7 +97,7 @@ h2 {
         &:before, &:after {
             content: "";
             position: absolute;
-            height: 3px;
+            height: 10px;
             border-bottom: 3px solid $theme-color;
             width: 110px;
         }
@@ -162,7 +182,6 @@ h2 {
 
 .footer {
     padding-top:60px;
-    padding-bottom:60px;
     background-color: $dark-color;
     color:$light-color;
     font-size:$paragraph-size;
@@ -200,6 +219,14 @@ h2 {
             width:20px;
             text-align: center;
         }
+    }
+    
+    .bottom-footer {
+        background-color:$theme-color;
+        padding-bottom:15px;
+        padding-top:15px;
+        text-align: center;
+        margin-top:30px;
     }
 }
 
@@ -447,6 +474,85 @@ h2 {
             opacity:1;
             transition: opacity 0.15s ease-in-out;
         }
+    }
+}
+
+/* ----- find-job.php -----*/
+
+.jobs {
+    background-color:$light-color;
+    padding-bottom: 20px;
+    margin-bottom:30px;
+    
+    img {
+        margin-top:15px;
+    }
+    
+    h3 {
+        margin-top:15px;
+        margin-bottom:0;
+    }
+    
+    h4 {
+        font-size:$heading-size-small - 8px;
+        font-weight:$heading-weight-small;
+    }
+    
+    hr {
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+    i {
+        margin-top: 10px;
+        opacity: 0.6;
+        width:17px;
+    }
+    
+    ul {
+        padding:0;
+        margin:0;
+        margin-top:5px;
+    }
+    
+    .soeg-jobbet { /* See more button */
+        background-color:$theme-color;
+        border-radius:$button-radius;
+        text-transform: uppercase;
+        color:$light-color;
+        padding: 7px 10px;
+        margin: auto;
+        transition: $standard-transition;
+        margin-top:35px;
+        font-size:$paragraph-size;
+
+        &:hover {
+            background-color:$dark-color;
+            transition: $standard-transition;
+            text-decoration: none;
+            color:$light-color;
+        }
+    }
+    
+    li {
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        font-size: $paragraph-size;
+    
+        a {
+            color:$dark-color;
+        }
+    }
+    
+    .job {
+        padding-bottom:35px;
+        padding-top:10px;
+        margin: 5px 0px;
+    }
+    
+    .job:not(:last-child) { /* Border bottom on every job except the last one */
+        border-bottom: solid $theme-color 1px;
     }
 }
 
