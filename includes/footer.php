@@ -29,7 +29,7 @@
                 <li><a href="http://www.vikarjob.dk" target="_blank">VikarJob.dk</a></li>
                 <li><a href="http://www.salgsjob.dk" target="_blank">SalgsJob.dk</a></li>  
                 <li><a href="http://www.sats.dk" target="_blank">SATS.dk</a></li>
-                <li><a href="http://www.Freelance.dk" target="_blank">Freelance.dk</a></li>
+                <li><a href="http://www.freelance.dk" target="_blank">Freelance.dk</a></li>
               </ul>
           </article>
       </article>

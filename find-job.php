@@ -57,7 +57,7 @@
             </article>
             <article class="row col-12 job">
                 <div class="col-xs-12 col-sm-3">
-                    <img src="images/virksomheder/thomsen-og-co-logo.png" alt="FK Distribution logo"><br/>
+                    <img src="images/virksomheder/thomsen-og-co-logo.png" alt="Thomsen&Co logo"><br/>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> Århus</li>
                         <li><i class="fas fa-user"></i> +18 år</li>
@@ -77,7 +77,7 @@
             </article>
             <article class="row col-12 job">
                 <div class="col-xs-12 col-sm-3">
-                    <img src="images/virksomheder/thomsen-og-co-logo.png" alt="FK Distribution logo"><br/>
+                    <img src="images/virksomheder/alm-brand-logo.png" alt="Alm.Brand logo"><br/>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> Århus</li>
                         <li><i class="fas fa-user"></i> +18 år</li>
@@ -94,6 +94,52 @@
 Kunderne er helt almindelige danskere, hvoraf rigtig mange vil have stor fordel af at skifte til Alm. Brand. Med andre ord har du super gode argumenter på hånden. Derudover får du målrettet træning og sparring i salgsorienteret kommunikation – kompetencer der er meget efterspurgte i dansk erhvervsliv, uanset om du vil arbejde med salg eller noget helt andet. Jobbet er derudover et fantastisk springbræt, hvis du skulle have lyst til at fortsætte din karriere i Alm. Brand, fx inden for kundesupport eller som assurandør.
                     </p>
                     <a href="mailto:kontakt@almbrand.dk" class="soeg-jobbet">Søg job</a>
+                </div>
+            </article>
+            <article class="row col-12 job">
+                <div class="col-xs-12 col-sm-3">
+                    <img src="images/virksomheder/fakta-logo.png" alt="Fakta logo"><br/>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Århus</li>
+                        <li><i class="fas fa-user"></i> +16 år</li>
+                        <li><i class="fas fa-globe-americas"></i> <a href="https://fakta.dk/" target="_blank">Website</a></li>
+                    </ul>
+                </div>
+                <div class="col-9">
+                    <a name="fakta"></a>
+                    <h3>Servicemedarbejder for fakta</h3>
+                    <small>Studiejob</small>
+                    <hr/>
+                    <p>I fakta lever vi af at yde flink service til vores kunder. Derfor er vores servicemedarbejdere nogle af de vigtigste medarbejdere, vi har i butikkerne.<br/><br/>
+
+                    Servicemedarbejderen sidder oftest i kassen eller hjælper med at sætte varer op i butikken. Kunden møder herigennem servicemedarbejderen enten på sin vej igennem butikken eller oppe i kassen.<br/><br/>
+
+                    Servicemedarbejderen er derfor med til at sikre, at faktas kunder oplever butikken som usvær at handle i, og at de altid bliver mødt med et smil og en god service.
+                    </p>
+                    <a href="mailto:kontakt@fakta.dk" class="soeg-jobbet">Søg job</a>
+                </div>
+            </article>
+            <article class="row col-12 job">
+                <div class="col-xs-12 col-sm-3">
+                    <img src="images/virksomheder/wolt-logo.png" alt="Wolt logo"><br/>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Århus</li>
+                        <li><i class="fas fa-user"></i> +18 år</li>
+                        <li><i class="fas fa-globe-americas"></i> <a href="https://wolt.dk/" target="_blank">Website</a></li>
+                    </ul>
+                </div>
+                <div class="col-9">
+                    <a name="wolt"></a>
+                    <h3>Kurerpartner for Wolt</h3>
+                    <small>Studiejob</small>
+                    <hr/>
+                    <p>Som Wolt kurerpartner får du muligheden for nemt og fleksibelt at tjene penge!
+                    <br/><br/>
+                    Du bestemmer selv, hvor meget og hvornår du vil arbejde, da du selv vælger dit ugentlige skema.
+                    <br/><br/>
+                    Du bliver betalt for hver ordre du leverer, mens vi garanterer et minimum på 110 kr. hver time du er på vagt.
+                    </p>
+                    <a href="mailto:kontakt@wolt.dk" class="soeg-jobbet">Søg job</a>
                 </div>
             </article>
         </article>

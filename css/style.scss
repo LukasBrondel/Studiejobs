@@ -121,7 +121,7 @@ h2 {
     padding:10px 20px;
     margin: auto;
     transition: $standard-transition;
-    margin-top:35px;
+    margin-top:5px;
 
     &:hover {
         background-color:$dark-color;
@@ -139,6 +139,7 @@ h2 {
     height:57px;
     width:241px;
 }
+
 .customNavbar {
 	background-color:$light-color !important; /* Overwrite bootstrap */
 	-webkit-box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.4);
@@ -151,6 +152,10 @@ h2 {
 
 .navbar-light .navbar-nav .nav-link {
     color: $dark-color;
+    
+    &:hover {
+        color:$theme-color;
+    }
 }
 
 .nav-item {
@@ -555,6 +560,51 @@ h2 {
         border-bottom: solid $theme-color 1px;
     }
 }
+
+/*------ Kontakt.php --------*/
+
+.kontaktFormular {
+    color:$dark-color;
+    margin-bottom:40px;
+    
+    a {
+        color:$dark-color;
+    }
+    
+    i {
+        width:25px;
+        text-align: center;
+    }
+    
+    li {
+        list-style-type: none;
+        margin-bottom:5px;
+    }
+    
+    ul {
+        margin:0;
+        padding:0;
+    }
+    
+    form {
+        margin-bottom:40px;
+    }
+    
+    button {
+        background-color:$theme-color;
+        border:none;
+        border-radius:$button-radius;
+        
+        &:hover {
+            background-color:$dark-color;
+        }
+    }
+}
+
+.googleMaps {
+    margin-bottom:40px;
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
